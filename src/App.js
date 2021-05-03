@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { increment, decrement } from './action'
-import './app.css'
+import './App.css'
 function App() {
   const counter = useSelector( state => state.counter)
   const isLogged = useSelector( state => state.isLogged)
